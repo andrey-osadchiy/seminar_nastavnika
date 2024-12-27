@@ -49,8 +49,16 @@ curl -X 'POST' \
   "description": "rest all day",
   "completed": false
 }'
+
 ### Получение всех задач
-```bash
 curl -X 'GET' \
   'http://localhost:8000/items' \
   -H 'accept: application/json'
+
+### Удаление задачи
+curl -X 'DELETE' \
+  'http://localhost:8000/items/2' \
+  -H 'accept: application/json'
+
+
+
