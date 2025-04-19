@@ -167,5 +167,15 @@ ORDER BY day ASC
 ![Скриншот](screenshots/22.png)
 
 - Выделить «самых активных» пользователей (по сумме заказов или по количеству заказов:
+```sql
+SELECT 
+    user_id, 
+    SUM(total_amount) AS total_spent, 
+    COUNT() AS orders_count
+FROM orders 
+GROUP BY user_id
+ORDER BY total_spent DESC
+LIMIT 5
+```
 ![Скриншот](screenshots/23.png)
 
