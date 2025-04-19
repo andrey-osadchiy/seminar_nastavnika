@@ -1,0 +1,17 @@
+item_id;order_id;product_name;product_price;quantity
+1;1001;Smartphone;600.0;2
+2;1002;Laptop;999.5;1
+3;1004;Monitor;300.0;2
+4;1004;Keyboard;50.0;1
+5;1007;Mouse;25.0;2
+6;1010;Laptop;799.0;1
+7;1019;Laptop;1100.0;2
+8;1020;Speaker;185.5;3
+9;1009;Tablet;500.0;2
+10;1011;PhoneCase;20.0;3
+11;1012;GamingConsole;650.0;3
+12;1013;Book;15.0;10
+13;1014;Smartwatch;300.0;1
+14;1015;Monitor;300.0;2
+15;1015;Keyboard;50.0;1
+16;1016;Camera;250.0;2

@@ -1,0 +1,17 @@
+log_id;transaction_id;category;comment;log_timestamp
+1;10001;Electronics;User bought a phone;2023-03-10 14:26:00
+2;10002;Travel;Flight ticket to Europe;2023-03-10 14:31:00
+3;99999;System;Unrelated transaction;2023-03-10 14:40:00
+4;10004;System;Weird currency ???;2023-03-10 15:15:00
+5;10006;Electronics;Laptop purchase;2023-03-11 09:10:00
+6;10007;Misc;Zero amount transaction?;2023-03-11 10:11:00
+7;10010;Electronics;Gaming console;2023-03-12 11:06:00
+8;11111;System;No valid transaction link;2023-03-14 08:55:00
+9;10010;Electronics;Gaming console extended;2023-03-12 11:07:00
+10;10013;Misc;Extra big sum transaction?;2023-03-13 09:01:00
+11;11111;System;Still no valid transaction link;2023-03-14 08:56:00
+12;10014;Electronics;Laptop purchase with discount;2023-03-13 09:06:00
+13;10015;Other;Unexpected currency GBP;2023-03-13 09:11:00
+14;10020;Misc;Negative sum check again;2023-03-14 10:21:00
+15;99998;System;Random noise entry;2023-03-14 10:25:00
+16;10019;Travel;Flight to Europe?;2023-03-14 10:11:00
