@@ -12,8 +12,8 @@
 
   ## Задание 1
 
- (!) Все используемые запросы представлены в папке [query]([https://www.example.com](https://github.com/andrey-osadchiy/seminar_nastavnika/tree/main/yandex_cloud_hw1/query))
-
+ (!) Все используемые запросы представлены в папке [query](https://github.com/andrey-osadchiy/seminar_nastavnika/tree/main/yandex_cloud_hw1/query)
+ 
  Разворачиваем кластер при помощи Yandex Cloud
  ![Скриншот](screenshots/1.png)
  
