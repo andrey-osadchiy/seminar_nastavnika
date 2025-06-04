@@ -1,0 +1,8 @@
+project/
+├── main.py              # FastAPI сервер
+├── app.py               # Streamlit приложение
+├── 22.db                # SQLite база данных (103 851 строк)
+├── requirements.txt     # Зависимости
+├── Dockerfile.fastapi   # Dockerfile для FastAPI
+├── Dockerfile.streamlit # Dockerfile для Streamlit
+├── docker-compose.yml   # Конфигурация Docker
