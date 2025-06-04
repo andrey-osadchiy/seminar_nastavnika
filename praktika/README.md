@@ -40,7 +40,6 @@
 ### Что неоьбходимо чтобы всё встало
 - Docker и Docker Compose
 - DBeaver (не обязателеьно, можно любое другое по для бд)
-andrey-osadchiy/seminar_nastavnika
 ### Шаги
 1. **Клонируем репозиторий**:
    ```bash
