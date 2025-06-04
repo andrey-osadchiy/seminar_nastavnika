@@ -40,12 +40,12 @@ andrey-osadchiy/seminar_nastavnika
      ```bash
      sqlite3 22.db < init_db.sql
      ```
-        ![Скриншот](screenshots/3.png)
+     ![Скриншот](screenshots/2.png)
 3. **Запускаем приложение**:
    ```bash
    docker compose up --build
    ```
-    ![Скриншот](screenshots/3.png)
+    ![Скриншот](screenshots/1.png)
    - FastAPI: `http://localhost:8000`
    - Streamlit: `http://localhost:8501`
 4. **Проверяем данные** (опционально):
