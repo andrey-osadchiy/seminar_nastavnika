@@ -25,6 +25,7 @@
 - **Контейнеризация**: Docker с двумя сервисами (`fastapi`, `streamlit`) и монтированием базы данных.
 
 ## Структура проекта
+```bash
 ├── main.py              # FastAPI сервер
 ├── app.py               # Streamlit приложение
 ├── 22.db                # SQLite база данных (или заглушка, см. ниже)
@@ -33,7 +34,7 @@
 ├── Dockerfile.streamlit # Dockerfile для Streamlit
 ├── docker-compose.yml   # Конфигурация Docker
 ├── README.md            # Описание проекта
-
+  ```
  
 ## Установка и запуск
 ### Что неоьбходимо чтобы всё встало
@@ -61,6 +62,8 @@ andrey-osadchiy/seminar_nastavnika
    - Streamlit: `http://localhost:8501`
    - Заходим в Streamlit и вводим слово что хотим найти
      ![Скриншот](screenshots/3.png)
+   - Проверьте эндпоинт /search
+     ![Скриншот](screenshots/4.png)
 4. **Проверяем данные** (опционально):
    - Подключаемся к `22.db` в DBeaver.
    - Выполняем запрос:
