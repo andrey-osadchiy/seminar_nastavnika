@@ -48,6 +48,8 @@ andrey-osadchiy/seminar_nastavnika
     ![Скриншот](screenshots/1.png)
    - FastAPI: `http://localhost:8000`
    - Streamlit: `http://localhost:8501`
+   - Заходим в Streamlit и вводим слово что хотим найти
+     ![Скриншот](screenshots/3.png)
 4. **Проверяем данные** (опционально):
    - Подключаемся к `22.db` в DBeaver.
    - Выполняем запрос:
@@ -57,7 +59,7 @@ andrey-osadchiy/seminar_nastavnika
      WHERE username LIKE '%andrey%' OR fullname LIKE '%andrey%' OR biography LIKE '%andrey%' 
      LIMIT 100;
      ```
-
+![Скриншот](screenshots/4.png)
 
 ---
 *Проект создан как часть учебной практики по разработке и дата-инженерии.*
