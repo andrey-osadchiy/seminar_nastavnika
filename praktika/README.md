@@ -24,6 +24,17 @@
 - **База данных**: SQLite (`22.db`, таблица `userin`) — хранение профилей пользователей.
 - **Контейнеризация**: Docker с двумя сервисами (`fastapi`, `streamlit`) и монтированием базы данных.
 
+## Структура проекта
+├── main.py              # FastAPI сервер
+├── app.py               # Streamlit приложение
+├── 22.db                # SQLite база данных (или заглушка, см. ниже)
+├── requirements.txt     # Зависимости
+├── Dockerfile.fastapi   # Dockerfile для FastAPI
+├── Dockerfile.streamlit # Dockerfile для Streamlit
+├── docker-compose.yml   # Конфигурация Docker
+├── README.md            # Описание проекта
+
+ 
 ## Установка и запуск
 ### Что неоьбходимо чтобы всё встало
 - Docker и Docker Compose
