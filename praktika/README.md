@@ -63,6 +63,9 @@ andrey-osadchiy/seminar_nastavnika
    - Заходим в Streamlit и вводим слово что хотим найти
      ![Скриншот](screenshots/3.png)
    - Проверьте эндпоинт /search
+     ```bash
+     curl -X POST "http://localhost:8000/search" -H "Content-Type: application/json" -d '{"keyword":"andrey"}'
+     ```
      ![Скриншот](screenshots/5.png)
 4. **Проверяем данные** (опционально):
    - Подключаемся к `22.db` в DBeaver.
