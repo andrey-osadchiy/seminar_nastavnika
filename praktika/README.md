@@ -44,7 +44,7 @@ andrey-osadchiy/seminar_nastavnika
 ### Шаги
 1. **Клонируем репозиторий**:
    ```bash
-   git clone https://github.com/andrey-osadchiy/seminar_nastavnika/projet.git
+   git clone https://github.com/andrey-osadchiy/seminar_nastavnika/praktika.git
    cd user-profile-search
    ```
 2. **Подготовливаем базу данных**:
