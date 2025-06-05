@@ -28,7 +28,7 @@
 ```bash
 ├── main.py              # FastAPI сервер
 ├── app.py               # Streamlit приложение
-├── 22.db                # SQLite база данных (или заглушка, см. ниже)
+├── 22.db                # SQLite база данных
 ├── requirements.txt     # Зависимости
 ├── Dockerfile.fastapi   # Dockerfile для FastAPI
 ├── Dockerfile.streamlit # Dockerfile для Streamlit
