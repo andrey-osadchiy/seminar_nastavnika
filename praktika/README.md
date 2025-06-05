@@ -61,6 +61,10 @@
    - Streamlit: `http://localhost:8501`
    - Заходим в Streamlit и вводим слово что хотим найти
      ![Скриншот](screenshots/3.png)
+    - Нажимаем на скачать результаты в JSON
+      ![Скриншот](screenshots/6.png)
+    - Открываем файл
+    ![Скриншот](screenshots/7.png)
    - Проверяем эндпоинт /search
      ```bash
      curl -X POST "http://localhost:8000/search" -H "Content-Type: application/json" -d '{"keyword":"andrey"}'
