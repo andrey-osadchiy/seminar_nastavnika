@@ -43,8 +43,8 @@
 ### Шаги
 1. **Клонируем репозиторий**:
    ```bash
-   git clone https://github.com/andrey-osadchiy/seminar_nastavnika/praktika.git
-   cd user-profile-search
+    git clone https://github.com/andrey-osadchiy/seminar_nastavnika.git
+    cd seminar_nastavnika/praktika
    ```
 2. **Подготовливаем базу данных**:
    - Поместите файл `22.db` с таблицей `userin` в корневую папку проекта или создаём таблицу с помощью `init_db.sql`:
